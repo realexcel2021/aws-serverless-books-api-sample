@@ -7,7 +7,7 @@
     "prebuild": "mkdir -p dist",
     "copy-deps": "cp -r node_modules dist",
     "build-dev": "tsc",
-    "build": "npm i && tsc && npm prune --production && npm run copy-deps",
+    "build": "npm i && tsc && npm run copy-deps",
     "test": "mocha -r ts-node/register ./tests/*.spec.ts"
   },
   "author": "Amazon Web Services",
